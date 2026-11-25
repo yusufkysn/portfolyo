@@ -60,27 +60,25 @@ const i18n = {
 const projects = [
   {
     cat: "graphic", img: "img/proje1.jpg",
-    tr: { course: "Grafik Animasyon I • Ders Çalışması", title: "Renk Paleti ve Geometrik İllüstrasyon Tasarımı", desc: "Grafik Animasyon I dersi kapsamında hazırlanan; renk geçişleri, katman maskeleme ve vektörel kompozisyon ilkelerinin uygulandığı dijital tasarım çalışması." },
-    en: { course: "Graphic Animation I • Coursework", title: "Color Palette and Geometric Illustration Design", desc: "A digital design piece created in Graphic Animation I applying color transitions, layer masking, and vector composition principles." }
+    tr: { course: "Grafik Animasyon I • Ders Çalışması", title: "History Brush", desc: "Grafik Animasyon I dersi kapsamında Adobe Photoshop History Brush aracı kullanılarak hazırlanan seçici renklendirme ve görsel düzenleme çalışması." },
+    en: { course: "Graphic Animation I • Coursework", title: "History Brush", desc: "A selective coloring and image restoration study created in Graphic Animation I using Adobe Photoshop's History Brush tool." }
   },
   {
     cat: "graphic", img: "img/proje2.jpg",
-    tr: { course: "Grafik Animasyon II • Ders Çalışması", title: "Ambalaj Giydirme ve Perspektif Mockup Uygulaması", desc: "Grafik Animasyon II dersi için Adobe Photoshop kullanılarak yüzey eğimi, ışık-gölge dengesi ve tipografik hiyerarşi ile oluşturulan ürün sunumu." },
-    en: { course: "Graphic Animation II • Coursework", title: "Packaging Wrap and Perspective Mockup Study", desc: "A product presentation built in Adobe Photoshop for Graphic Animation II featuring surface curvature, light-shadow balance, and typographic hierarchy." }
+    tr: { course: "Grafik Animasyon II • Ders Çalışması", title: "Ürün Tanıtımı", desc: "Grafik Animasyon II dersi kapsamında marka kimliği, ambalaj tasarımı ve gerçekçi mockup sunumu ile hazırlanan ürün tanıtım çalışması." },
+    en: { course: "Graphic Animation II • Coursework", title: "Product Promotion", desc: "A product promotion study created in Graphic Animation II featuring brand identity, packaging design, and realistic mockup presentation." }
   },
   {
-    cat: "multimedia", img: "img/galeri2.jpeg",
-    tr: { course: "Multimedya Uygulamaları • Web Projesi", title: "Çift Dilli Kişisel Portfolyo Web Sitesi", desc: "HTML5, Tailwind CSS ve JavaScript ile geliştirilen; mobil uyumlu, kategori filtreli blog ve galeri modüllerine sahip kişisel tanıtım sitesi." },
-    en: { course: "Multimedia Applications • Web Project", title: "Bilingual Personal Portfolio Website", desc: "A responsive personal showcase built with HTML5, Tailwind CSS, and JavaScript featuring filterable blog posts and an interactive gallery." }
+    cat: "multimedia", img: "img/proje3.jpeg",
+    tr: { course: "Multimedya Uygulamaları • Web Projesi", title: "Web Arayüzü Hazırlama", desc: "Multimedya ve web tasarımı dersi kapsamında HTML5, CSS3 ve modern arayüz ilkeleri kullanılarak hazırlanan duyarlı web arayüzü projesi." },
+    en: { course: "Multimedia Applications • Web Project", title: "Web Interface Design", desc: "A responsive web interface project developed for Multimedia and Web Design coursework using HTML5, CSS3, and modern UI principles." }
   }
 ];
 
 const gallery = [
   { img: "img/galeri1.jpeg", tr: { title: "Yeşil Saha Tutkusu", desc: "Futbol heyecanı ve stadyum atmosferinden bir an." }, en: { title: "Pitch Passion", desc: "A moment capturing football excitement and match atmosphere." } },
   { img: "img/galeri2.jpeg", tr: { title: "Yazılım & Geliştirme", desc: "Kod yazarken ve yeni algoritmalar denerken çalışma masam." }, en: { title: "Software & Development", desc: "My workspace while coding and testing new algorithms." } },
-  { img: "img/galeri3.jpeg", tr: { title: "Kadraj & Çekim", desc: "Multimedya çalışmaları için fotoğraf ve video çekim anı." }, en: { title: "Framing & Capture", desc: "Behind the lens capturing photos and video for multimedia work." } },
-  { img: "img/resim2.jpeg", tr: { title: "Akdeniz Sahili", desc: "Antalya kıyılarında sakin bir yürüyüş ve deniz manzarası." }, en: { title: "Mediterranean Coast", desc: "A quiet walk and sea view along the Antalya shoreline." } },
-  { img: "img/resim3.jpeg", tr: { title: "Mavi Ufuk", desc: "Deniz kenarında dinlenme ve yeni projeler planlama molası." }, en: { title: "Blue Horizon", desc: "A relaxing break by the sea planning upcoming projects." } }
+  { img: "img/galeri3.jpeg", tr: { title: "Film / Dizi İzlemek", desc: "Boş zamanlarımda sinema ve dizi yapımlarını takip etmek en sevdiğim aktivitelerden biri." }, en: { title: "Watching Movies & Series", desc: "Watching films and TV series in my free time is one of my favorite pastimes." } }
 ];
 
 const blogs = [
